@@ -1,0 +1,7 @@
+<button kendoButton id="increment" (click)="increment()" [primary]="true">Increment</button>
+
+<div>Current Count: {{ count$ | async }}</div>
+
+<button kendoButton id="decrement" (click)="decrement()" [primary]="true">Decrement</button>
+
+<button id="reset" (click)="reset()">Reset Counter</button>
